@@ -1,0 +1,201 @@
+
+.navbar a{
+    opacity: 0.5;
+    color: #fff;
+}
+
+a:hover{
+    
+    
+    opacity:1;
+
+}
+
+.navbar{
+   
+    margin: 0;
+    width:100%;
+    
+    
+    text-align: center;
+    height: 90px;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.navbar a{
+    margin: 0 ;
+    padding : 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin: 10px;
+    
+    
+}
+.navbar img{
+    margin-right: 1006px ;
+    padding-top: 0px;
+    width: 60px;
+    height: 60px;
+
+}
+
+
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.pop{
+   padding-top: 120px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.lol{
+    margin-left: 500px;
+    width: 250px;
+    height: 450px;
+    
+}
+.kok{
+    filter: blur(5px);
+    border: 10px solid rgba(0, 0, 0, 0.185);
+    
+        
+}
+.kok:hover{
+    filter: blur(0px);
+    transition: .5s;
+        
+}
+.kik{
+    filter: blur(5px);
+    border: 10px solid rgba(0, 0, 0, 0.185);
+}
+.kik:hover{
+    filter: blur(0px);
+    transition: .5s;
+        
+}
+
+@media (max-width: 1200px){
+    .navbar img {
+        position: absolute;
+        left: 100px;
+        padding-top: 0px;
+        width: 60px;
+        height: 60px;
+    }
+    .navbar a{
+        
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.705);
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        position: relative;
+        left: 390px;
+        
+    }
+    .kok{
+        
+        border: 10px solid rgba(0, 0, 0, 0.185);
+        position: absolute;
+        top:900px;
+        
+        
+            
+    }
+   
+    
+    .kik{
+      
+        border: 10px solid rgba(0, 0, 0, 0.185);
+        position: absolute;
+       
+        left:440px;
+    }
+    
+    .lol{
+       
+        width: 250px;
+        height: 450px;
+        position: absolute;
+        left:1px;
+        left:-60px;
+    }
+   
+      
+}
+@media (max-width: 768px){
+    .navbar img {
+        position: absolute;
+        left: 100px;
+        padding-top: 0px;
+        width: 60px;
+        height: 60px;
+    }
+    .navbar a{
+        
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.705);
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        position: relative;
+        left: 390px;
+        
+    }
+    .kok{
+       
+        border: 10px solid rgba(0, 0, 0, 0.185);
+        position: absolute;
+        top:900px;
+        left:1px;
+        
+        
+        
+            
+    }
+         
+    
+    .kik{
+        
+        border: 10px solid rgba(0, 0, 0, 0.185);
+        position: absolute;
+       
+        left:250px;
+    }
+    .lol{
+       
+        width: 250px;
+        height: 450px;
+        position: absolute;
+        left:-250px;
+       
+        
+    }
+   
+   
+}
+@media (max-width: 576px){
+    
+}
+@media (max-width: 414px){
+    
+}
+    
+    
+    
+    

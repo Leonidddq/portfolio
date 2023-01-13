@@ -1,0 +1,396 @@
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    width:100%;
+    
+    
+    text-align: center;
+    height: 90px;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.navbar a{
+    margin: 0 ;
+    padding : 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin: 10px;
+    
+    
+}
+.navbar img{
+    margin-right: 1006px;
+    padding-top: 0px;
+    width: 60px;
+    height: 60px;
+
+}
+
+
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+}
+.ff{
+  margin-top: 190px;
+  margin-right: 1000px;
+  margin-left: 200px;
+  
+  
+  
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+button{
+    background-color: orange;
+    font-size: 19px;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+   
+}
+button:hover{
+    width: 160px;
+    height: 60px;
+    transition: .5s;
+
+}
+h1{
+    color: white;
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+
+
+.navbar a{
+    opacity: 0.5;
+    color: #fff;
+}
+
+a:hover{
+    
+    
+    opacity:1;
+
+}
+.jj{
+    font-size: 27px;
+    color: rgba(255, 255, 255, 0.534);
+    margin-bottom: 20px;
+    
+}
+
+.imagg{
+    
+float:right;
+width: 500px;
+height: 500px;
+padding-right: 250px;
+}
+main{
+    margin:10px;
+
+}
+
+footer {
+	color: #ffffff;
+	display: flex;
+	min-height: 75px;
+	align-items: center;
+	justify-content: center;
+    margin-top:100px;
+	
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+@media (max-width: 1200px){
+    
+    .navbar img {
+        position: absolute;
+        left: 270px;
+        padding-top: 0px;
+        width: 60px;
+        height: 60px;
+    }
+    .imagg {
+       position: absolute;
+       left:330px;
+    }
+    h1{
+        color: white;
+        font-size: 60px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        top:240px;
+        left:170px;
+        width: 300px;
+    
+
+    }   
+    .jj{
+        position: absolute;
+        top:430px;
+        left:170px;
+        font-size: 16px;
+        width: 200px;
+    }
+    .ff {
+       position: absolute;
+       left: 100px;
+       top:100px;
+       width: 400px;
+      
+    }
+    button {
+        background-color: orange;
+        font-size: 19px;
+        position: absolute;
+        top:590px;
+        left: 200px;
+    }
+    button:hover{
+        width: 160px;
+        height: 60px;
+        transition: .5s;
+    
+    }
+    .navbar a{
+        
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.705);
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        position: relative;
+        left: 340px;
+        
+    }
+    footer{
+        position: absolute;
+        top:850px;
+        left:430px;
+    }
+}
+
+@media (max-width: 768px){
+    .navbar img {
+        position: absolute;
+        left: 170px;
+        padding-top: 0px;
+        width: 60px;
+        height: 60px;
+    }
+    .imagg {
+       position: absolute;
+       left:230px;
+    }
+    h1{
+        color: white;
+        font-size: 60px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        top:240px;
+        left:50px;
+        width: 300px;
+    
+
+    }   
+    .jj{
+        position: absolute;
+        top:430px;
+        left:50px;
+        font-size: 16px;
+        width: 200px;
+    }
+    .ff {
+       position: absolute;
+       left: 100px;
+       top:100px;
+       width: 400px;
+      
+    }
+    button {
+        background-color: orange;
+        font-size: 19px;
+        position: absolute;
+        top:590px;
+        left: 50px;
+    }
+    button:hover{
+        width: 160px;
+        height: 60px;
+        transition: .5s;
+    
+    }
+    .navbar a{
+        
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.705);
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        position: relative;
+        left: 340px;
+        
+    }
+    footer{
+        position: absolute;
+        top:850px;
+        left:320px;
+    }
+}
+
+@media  (max-width: 576px){
+    .navbar img {
+        position: absolute;
+        left: 100px;
+        padding-top: 0px;
+        width: 60px;
+        height: 60px;
+    }
+    .imagg {
+       position: absolute;
+       left:150px;
+    }
+    h1{
+        color: white;
+        font-size: 60px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        top:240px;
+        left:1px ;
+        width: 300px;
+    
+
+    }   
+    .jj{
+        position: absolute;
+        top:430px;
+        left:1px;
+        font-size: 16px;
+        width: 200px;
+    }
+    .ff {
+       position: absolute;
+       left: 100px;
+       top:100px;
+       width: 400px;
+      
+    }
+    button {
+        background-color: orange;
+        font-size: 19px;
+        position: absolute;
+        top:590px;
+        left: 50px;
+    }
+    button:hover{
+        width: 160px;
+        height: 60px;
+        transition: .5s;
+    
+    }
+    .navbar a{
+        
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.705);
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        position: relative;
+        left: 270px;
+        
+    }
+    footer{
+        position: absolute;
+        top:850px;
+        left:220px;
+        width: 400px;
+    }
+}
+@media (max-width: 414px){
+    .navbar img {
+        position: absolute;
+        left: 100px;
+        padding-top: 0px;
+        width: 60px;
+        height: 60px;
+    }
+    .imagg {
+       position: absolute;
+       left:150px;
+    }
+    h1{
+        color: white;
+        font-size: 60px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        top:240px;
+        left:1px ;
+        width: 300px;
+    
+
+    }   
+    .jj{
+        position: absolute;
+        top:430px;
+        left:1px;
+        font-size: 16px;
+        width: 200px;
+    }
+    .ff {
+       position: absolute;
+       left: 100px;
+       top:100px;
+       width: 400px;
+      
+    }
+    button {
+        background-color: orange;
+        font-size: 19px;
+        position: absolute;
+        top:590px;
+        left: 50px;
+    }
+    button:hover{
+        width: 160px;
+        height: 60px;
+        transition: .5s;
+    
+    }
+    .navbar a{
+        
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.705);
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        position: relative;
+        left: 270px;
+        
+    }
+    footer{
+        position: absolute;
+        top:850px;
+        left:220px;
+        width: 400px;
+    }
+
+}

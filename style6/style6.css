@@ -1,0 +1,223 @@
+.navbar{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    width:100%;
+    
+    
+    text-align: center;
+    height: 90px;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.navbar a{
+    margin: 0 ;
+    padding : 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin: 10px;
+    
+    
+}
+.navbar img{
+    margin-right: 1006px;
+    padding-top: 0px;
+    width: 60px;
+    height: 60px;
+
+}
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+}
+.navbar a{
+    opacity: 0.5;
+    color: #fff;
+}
+
+a:hover{
+    
+    
+    opacity:1;
+
+}
+img{
+    align-items: left;
+    display: flex;
+    justify-content: left;
+}
+input{
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    color: #fff;
+    display: block;
+   
+    border: 1px solid rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+button{
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+iframe{
+    
+    float:right;
+    width: 500px;
+    height: 650px;
+    padding-right: 250px;
+
+}
+
+main{
+    margin:10px;
+
+}
+@media (max-width: 1200px){
+    iframe{
+    
+        float:right;
+        width: 500px;
+        height: 650px;
+        position: absolute;
+        top: 800px;
+        left: 370px;
+    }
+    .navbar a{
+    margin: 0 ;
+    padding : 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    left: 400px;
+    
+    
+    }
+    .navbar img{
+       
+        padding-top: 0px;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 100px;
+    
+    }
+}
+@media (max-width: 768px){
+    iframe{
+    
+        float:right;
+        width: 500px;
+        height: 650px;
+        position: absolute;
+        top: 800px;
+        left: 370px;
+    }
+    .navbar a{
+    margin: 0 ;
+    padding : 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    left: 500px;
+    
+    
+    }
+    .navbar img{
+       
+        padding-top: 0px;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 100px;
+    
+    }
+}
+@media (max-width: 576px){
+    iframe{
+    
+        float:right;
+        width: 500px;
+        height: 650px;
+        position: absolute;
+        top: 800px;
+        left: 270px;
+    }
+    .navbar a{
+    margin: 0 ;
+    padding : 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    left: 500px;
+    
+    
+    }
+    .navbar img{
+       
+        padding-top: 0px;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 100px;
+    
+    }
+    input{
+        width: 400px;
+        height: 100px;
+        background-color: black;
+        color: #fff;
+        display: block;
+        position: relative;
+        right:100px;
+        border: 1px solid rgb(255, 255, 255);
+        margin: 10px;
+        border-radius: 10px;
+        margin-left: 400px;
+        margin-top: 50px;
+    }
+    button{
+        background-color: white;
+        color: black;
+        width: 400px;
+        height: 100px;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 400px;
+        margin-top: 100px;
+        position: relative;
+        right:100px;
+    }
+}
+@media (max-width: 414px){
+}

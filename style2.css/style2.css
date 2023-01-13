@@ -1,0 +1,472 @@
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    width:100%;
+    
+    
+    text-align: center;
+    height: 90px;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.navbar a{
+    margin: 0 ;
+    padding : 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin: 10px;
+    
+    
+}
+.navbar img{
+    margin-right: 1006px;
+    padding-top: 0px;
+    width: 60px;
+    height: 60px;
+
+}
+
+
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+}
+.navbar a{
+    opacity: 0.5;
+    color: #fff;
+}
+
+a:hover{
+    
+    
+    opacity:1;
+
+}
+.imgg{
+    align-items: left;
+    display: flex;
+    justify-content: left;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.pro{
+    font-size: 48px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fon{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+}
+.html{
+  margin-left: 10px;
+ 
+}
+main{
+    background-color: black;
+}
+.python{
+    text-align: center;
+}
+
+.js{
+    text-align: right;
+   margin-right: 10px;
+}
+
+footer {
+	color: #ffffff;
+	display: flex;
+	min-height: 75px;
+	align-items: center;
+	justify-content: center;
+	
+}
+.htm{
+    color: #fff;
+    font-size: 28px;
+   text-align: left;
+    margin: 20px;
+    bottom: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.py{
+    color: #fff;
+    font-size: 28px;
+    margin: 20px;
+    bottom: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.jss{
+    color: #fff;
+    font-size: 28px;
+    text-align: right;
+    margin: 20px;
+    bottom: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bl{
+    display: block;
+}
+@media (max-width: 1200px){
+    
+    h1 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 70px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .navbar img {
+        position: absolute;
+        left: 200px;
+        padding-top: 0px;
+        width: 60px;
+        height: 60px;
+    }
+    .navbar a{
+        position: relative;
+        left: 240px;
+        margin: 0 ;
+        padding : 10px;
+        text-decoration: none;
+         color: rgba(255, 255, 255, 0.705);
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        margin: 10px;
+    
+    }
+    a:hover{
+    
+    
+        opacity:1;
+    
+    }
+   
+    .html {
+       position: absolute;
+       left: 540px;
+       width: 100px;
+       height: 100px;
+       text-align: center;
+    }
+    .htm {
+        color: #fff;
+        font-size: 18px;
+        position: absolute;
+        left: 400px;
+        top:620px;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .p{
+        position: absolute;
+        top:700px;
+        width: 270px;
+        height: 90px;
+        left: 470px;
+      
+    }
+    .py {
+        color: #fff;
+        font-size: 18px;
+        position: absolute;
+        left: 400px;
+        top:780px;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .j {
+        position: absolute;
+        top:830px;
+        width: 100px;
+        height: 100px;
+        left: 550px;
+    }
+    .jss {
+        color: #fff;
+        font-size: 18px;
+        position: absolute;
+        left: 400px;
+        top:930px;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    footer{
+        position: absolute;
+        top: 1000px;
+        left:500px;
+    }
+}
+
+@media (max-width: 768px){
+    
+    .navbar img {
+        position: absolute;
+        left: 100px;
+        padding-top: 0px;
+        width: 60px;
+        height: 60px;
+    }
+    .fon {
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        
+        width: 800px;
+    }
+    h1 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        
+        font-size: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .pro{
+        font-size: 30px;
+       position: absolute;
+       top: 200px;
+       left:150px;
+    }
+    .html {
+        position: absolute;
+        left: 360px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+     }
+     .htm {
+         color: #fff;
+         font-size: 18px;
+         position: absolute;
+         left: 200px;
+         top:620px;
+         text-align: center;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     .p{
+         position: absolute;
+         top:700px;
+         width: 270px;
+         height: 90px;
+         left: 290px;
+       
+     }
+     .py {
+         color: #fff;
+         font-size: 18px;
+         position: absolute;
+         left: 200px;
+         top:780px;
+         text-align: center;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     .j {
+         position: absolute;
+         top:830px;
+         width: 100px;
+         height: 100px;
+         left: 350px;
+     }
+     .jss {
+         color: #fff;
+         font-size: 18px;
+         position: absolute;
+         left: 200px;
+         top:930px;
+         text-align: center;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     footer{
+         position: absolute;
+         top: 1000px;
+         left:280px;
+     }
+}
+
+@media  (max-width: 576px){
+    .navbar img {
+        position: absolute;
+        left: 100px;
+        padding-top: 0px;
+        width: 60px;
+        height: 60px;
+    }
+    .fon {
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        
+        width: 800px;
+    }
+    h1 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        
+        font-size: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .pro{
+        font-size: 30px;
+       position: absolute;
+       top: 200px;
+       left:150px;
+    }
+    .html {
+        position: absolute;
+        left: 340px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+     }
+     .htm {
+         color: #fff;
+         font-size: 18px;
+         position: absolute;
+         left: 210px;
+         top:620px;
+         text-align: center;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     .p{
+         position: absolute;
+         top:700px;
+         width: 270px;
+         height: 90px;
+         left: 290px;
+       
+     }
+     .py {
+         color: #fff;
+         font-size: 18px;
+         position: absolute;
+         left: 210px;
+         top:780px;
+         text-align: center;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     .j {
+         position: absolute;
+         top:870px;
+         width: 100px;
+         height: 100px;
+         left: 330px;
+     }
+     .jss {
+         color: #fff;
+         font-size: 18px;
+         position: absolute;
+         left: 210px;
+         top:990px;
+         text-align: center;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     footer{
+         position: absolute;
+         top: 1100px;
+         left:260px;
+     }
+   
+}
+@media (max-width: 414px){
+    .navbar img {
+        position: absolute;
+        left: 100px;
+        padding-top: 0px;
+        width: 60px;
+        height: 60px;
+    }
+    .fon {
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        
+        width: 800px;
+    }
+    h1 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        
+        font-size: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .pro{
+        font-size: 30px;
+       position: absolute;
+       top: 200px;
+       left:150px;
+    }
+    .html {
+        position: absolute;
+        left: 340px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+     }
+     .htm {
+         color: #fff;
+         font-size: 18px;
+         position: absolute;
+         width: 160px;
+         left: 300px;
+         top:620px;
+         text-align: center;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     .p{
+         position: absolute;
+         top:700px;
+         width: 270px;
+         height: 90px;
+         left: 260px;
+       
+     }
+     .py {
+         color: #fff;
+         font-size: 18px;
+         position: absolute;
+         width: 160px;
+         left: 300px;
+         top:780px;
+         text-align: center;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     .j {
+         position: absolute;
+         top:870px;
+         width: 100px;
+         height: 100px;
+         left: 330px;
+     }
+     .jss {
+         color: #fff;
+         font-size: 18px;
+         width: 160px;
+         position: absolute;
+         left: 290px;
+         top:990px;
+         text-align: center;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     footer{
+         position: absolute;
+         top: 1200px;
+         width: 300px;
+         left:250px;
+     }
+}
